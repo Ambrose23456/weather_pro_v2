@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://source.unsplash.com/random?nature");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.card{
+    background-color: aqua;
+    color: black;
+    border-radius: 30px;
+    text-align:center;
+    padding: 2em;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+button{
+    
+    border: none;
+    border-radius: 18px;
+    height: 2em;
+    background-color: lawngreen;
+    font-family: inherit;
+    cursor: pointer;
+}
+button:hover{
+    border: 1px solid red;
+    opacity: 0.9;
+    transition: all 300ms ease-in-out;
+}
+.search-bar{
+    border-radius: 18px;
+    border: none;
+    height: 2em;
+    outline: none;
+    padding-left: 1em;
+    width: calc(100% - 100px);  
+}
+.weather-icon{
+    display: flex;
+    justify-content: center;
+}
+
